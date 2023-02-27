@@ -128,12 +128,12 @@
 .container-info a {
     font-family: 'Italiana';
     font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
+    font-weight: 500;
+    font-size: 45px;
     line-height: 44px;
     display: flex;
     align-items: center;
-    color: #5c5d61;
+    color: #68686b;
     margin-bottom: 20px;
     margin-top: 30px;
     text-decoration: none;
@@ -176,6 +176,7 @@
     height: 50px;
     display: flex;
     background-color: #172958;
+    margin-top: 75px;
 }
 .p {
     width: 50%;
