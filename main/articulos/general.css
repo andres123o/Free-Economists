@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+.opacity {
+    width: auto;
+    height: auto;
+}
 .container-info-main {
     width: 100%;
     height: auto;
@@ -18,7 +22,7 @@
     top: 10px;
     left: 20px;
 }
-.inte img {
+.boton1 img {
     width: 20px;
     transform: scale(1.1);
     animation-iteration-count: 10.5;
@@ -106,3 +110,58 @@
     margin-top: -3%;
     margin-bottom: -5%;
 } 
+.boton1 {
+    background-color: #00000000;
+}
+#miVentanaEmergente {
+    position: fixed;
+    width: 60%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff4f4;
+    border-radius: 20px;
+    border: 1px solid #cca3a3;
+    padding: 30px;
+    display: none;
+}
+.container-button {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.container-button button {
+    background-color: #00000000;
+    margin-right: -5%;
+    margin-top: -3%;
+
+}
+.container-button img {
+    width: 50%;
+}
+.titulo-informativo {
+    margin-top: 2%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.titulo-informativo h2 {
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 2%;
+    color: rgb(0, 0, 0);
+}
+.titulo-informativo P {
+    margin-top: 4%;
+    font-family: 'Antic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+
